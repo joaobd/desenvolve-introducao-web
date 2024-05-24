@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de Satisfação</title>
+</head>
+<body>
+    <h1>Pesquisa de Satisfação</h1>
+    
+    <form action="/destino" method="post">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br><br>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required><br><br>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Pesquisa</legend>
+            <label>1. Como você avalia nosso atendimento?</label><br>
+            <input type="radio" id="excelente" name="avaliacao_atendimento" value="excelente" required>
+            <label for="excelente">Excelente</label><br>
+            <input type="radio" id="bom" name="avaliacao_atendimento" value="bom">
+            <label for="bom">Bom</label><br>
+            <input type="radio" id="regular" name="avaliacao_atendimento" value="regular">
+            <label for="regular">Regular</label><br>
+            <input type="radio" id="ruim" name="avaliacao_atendimento" value="ruim">
+            <label for="ruim">Ruim</label><br><br>
+            
+            <label>2. Você recomendaria nossos serviços a outras pessoas?</label><br>
+            <input type="radio" id="sim" name="recomendacao" value="sim" required>
+            <label for="sim">Sim</label><br>
+            <input type="radio" id="nao" name="recomendacao" value="nao">
+            <label for="nao">Não</label><br><br>
+            
+            <label for="satisfacao_geral">3. Qual o seu nível de satisfação geral?</label><br>
+            <select id="satisfacao_geral" name="satisfacao_geral" required>
+                <option value="muito_satisfeito">Muito satisfeito</option>
+                <option value="satisfeito">Satisfeito</option>
+                <option value="neutro">Neutro</option>
+                <option value="insatisfeito">Insatisfeito</option>
+                <option value="muito_insatisfeito">Muito insatisfeito</option>
+            </select><br><br>
+            
+            <input type="checkbox" id="compartilhar_resposta" name="compartilhar_resposta" value="sim">
+            <label for="compartilhar_resposta">Autorizo compartilhar minha resposta com terceiros</label><br><br>
+        </fieldset>
+        
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
