@@ -1,0 +1,18 @@
+/** Tema de cores */
+/** 
+
+    Midnight Blue   #145da0
+    Dark Blue       #0c2d48
+    Blue            #2e8bc0
+    Baby Blue       #b1d4e0
+
+    .principal  { #145da0 }
+    .destaque   { #0c2d48 }
+    .fundo      { #dad873 }
+    .fonte      { #454d66 }
+
+*/
+
+html { background-color: #b1d4e0; color: #2e8bc0 }
+
+h1, h2, h3 { color: #145da0 }
