@@ -28,7 +28,7 @@
 
 .design-selection {
   position: absolute;
-  top: 560px;
+  top: 550px;
   left: 62%;
   padding-left: 1%;
   padding-right: 1%;
@@ -75,6 +75,41 @@ aside ul li {
   display: inline-block;
 }
 
+.supporting footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.benefits {
+  display: flex;
+  border-top: 2px solid #145da0;
+  border-bottom: 2px solid #145da0;
+}
+
+.benefits p { 
+  flex-basis: 70%;
+}
+
+.benefits h3 {
+  order: 2;
+  align-self: center;
+  flex-basis: 30%;
+}
+
+.participation {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-top: 2px solid #145da0;
+}
+
+.participation h3, .participation p {
+  flex-basis: 50%;
+}
+
+.participation h3{
+  align-self: center;
+}
 
 html { 
   background-color: #b1d4e0; 
