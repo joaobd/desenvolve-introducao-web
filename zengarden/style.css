@@ -13,6 +13,44 @@
 
 */
 
-html { background-color: #b1d4e0; color: #2e8bc0 }
+html { 
+  background-color: #b1d4e0; 
+  color: #2e8bc0;
+  font-size: 14px;
+  font-family: Verdana, Tahoma, sans-serif;
+}
 
-h1, h2, h3 { color: #145da0 }
+p {
+  text-indent: 1em;
+}
+
+h1, h2, h3 { 
+  color: #145da0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-size: 1.4rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+.summary {
+  text-align: center; 
+}
+
+.main p {
+  line-height: 1.5;
+}
+
+abbr {
+  font-variant: small-caps;
+}
+
+
