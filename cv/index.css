@@ -11,17 +11,18 @@ header {
 
 .skill-cards-wrapper p {display: block}
 
-footer { border-top: 1px solid #f3f3f3}
+footer { border-top: 1px solid #f3f3f3; background-color: #000; color: #fff; padding: 20px !important}
 footer p  { margin-bottom: 0 }
+footer a { color: #fff }
 footer .small { font-size: 13px }
 footer .social-links { margin-bottom: 1rem; margin-top: 1rem;  text-align: center; }
 footer .social-links .social-link {
     display: inline-block;
     font-size: 12px;
     line-height: 1;
-    color: #ffffff;
+    color: #000;
     text-align: center;
-    background-color: #0067f6;
+    background-color: #ffffff;
     padding: 8px;
     width: 28px;
     height: 28px;
