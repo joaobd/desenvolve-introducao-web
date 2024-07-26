@@ -1,0 +1,31 @@
+/** 
+  * Código CSS customizado para a página
+  *
+**/
+
+header {
+  flex-direction: row-reverse;
+}
+
+.nav-link .bi, .nav-link:hover { color: #0067f6 }
+
+.skill-cards-wrapper p {display: block}
+
+footer { border-top: 1px solid #f3f3f3}
+footer p  { margin-bottom: 0 }
+footer .small { font-size: 13px }
+footer .social-links { margin-bottom: 1rem; margin-top: 1rem;  text-align: center; }
+footer .social-links .social-link {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1;
+    color: #ffffff;
+    text-align: center;
+    background-color: #0067f6;
+    padding: 8px;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    margin-right: 4px; 
+  }
+  footer .social-links .social-link:last-child { margin-right: 0; }
