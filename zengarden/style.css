@@ -24,6 +24,7 @@
   width: 60%;
   border-right: 1px solid #1f295c;
   padding-right: 2%;
+  padding-bottom: 2%;
 }
 
 .design-selection {
@@ -112,7 +113,7 @@ aside ul li {
 }
 
 html { 
-  background-color: #b1d4e0; 
+  background-color: #fff; 
   color: #2e8bc0;
   font-size: 18px;
   font-family: Verdana, Tahoma, sans-serif;
@@ -152,4 +153,10 @@ abbr {
 
 
 
+a { color: #0c2d48 }
+a:hover { color: #145da0}
 
+.main p:first-of-type:first-letter { font-size: 3em; font-family: 'Times New Roman', Times, serif; float: left}
+
+.design-selection li { border-top: 1px solid #0c2d48 }
+.design-selection li:last-of-type { border-bottom: 1px solid #0c2d48 }
